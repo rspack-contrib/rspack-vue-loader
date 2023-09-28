@@ -1,5 +1,5 @@
 {
-  "name": "vue-loader",
+  "name": "@rspack/loader-vue2",
   "version": "15.10.1",
   "description": "Vue single-file component loader for Webpack",
   "main": "lib/index.js",

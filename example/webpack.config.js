@@ -57,7 +57,7 @@ module.exports = (env = {}) => {
         rules: [
           {
             test: /\.vue$/,
-            loader: 'vue-loader',
+            loader: 'rspack-vue-loader',
             options: {
               // reactivityTransform: true,
               compilerOptions: {
@@ -124,7 +124,7 @@ module.exports = (env = {}) => {
       },
       resolveLoader: {
         alias: {
-          'vue-loader': require.resolve('../'),
+          'rspack-vue-loader': require.resolve('../'),
         },
       },
     }

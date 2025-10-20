@@ -14,7 +14,7 @@ function hash(text: string): string {
 }
 
 export const DEFAULT_VUE_USE = {
-  loader: 'vue-loader',
+  loader: 'rspack-vue-loader',
   options: {
     experimentalInlineMatchResource: Boolean(process.env.INLINE_MATCH_RESOURCE),
   },
@@ -33,7 +33,7 @@ const baseConfig: webpack.Configuration = {
   },
   resolveLoader: {
     alias: {
-      'vue-loader': require.resolve('../dist'),
+      'rspack-vue-loader': require.resolve('../dist'),
     },
   },
   module: {

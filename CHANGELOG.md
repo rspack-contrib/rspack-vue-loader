@@ -1,3 +1,21 @@
+## [17.4.3](https://github.com/vuejs/vue-loader/compare/v17.4.2...v17.4.3) (2025-10-20)
+
+
+### Bug Fixes
+
+* treat `with` as known loader rule property ([#10](https://github.com/vuejs/vue-loader/issues/10)) ([430bead](https://github.com/vuejs/vue-loader/commit/430bead4305cf23e1817f385522ad7f83eff4068))
+
+
+
+## [17.4.2](https://github.com/vuejs/vue-loader/compare/v17.4.1...v17.4.2) (2023-12-30)
+
+
+### Bug Fixes
+
+* pass compilerOptions to sfc parse & re-enable AST reuse ([d2a2e05](https://github.com/vuejs/vue-loader/commit/d2a2e051c3d985d1ae6bb468749b24543631b482))
+
+
+
 ## [17.4.2](https://github.com/vuejs/vue-loader/compare/v17.4.1...v17.4.2) (2023-12-30)
 
 
